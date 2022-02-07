@@ -247,6 +247,9 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 
+st.title("To extract  reviews of a product from AMAZON and perform sentiment analysis ")
+st.write("Logistic modeling approach has been adapted to perform sentiment analysis. ")
+
 with open('intents.json') as file:
     data = json.load(file)
     
