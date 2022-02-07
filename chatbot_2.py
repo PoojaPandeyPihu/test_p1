@@ -372,3 +372,5 @@ def main():
         results= chat()
     st.success(results)
    
+if __name__=='__main__':
+    main()
