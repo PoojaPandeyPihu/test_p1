@@ -240,6 +240,7 @@ Original file is located at
 import json 
 import numpy as np 
 import tensorflow as tf
+import streamlit as st
 from tensorflow import keras
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Embedding, GlobalAveragePooling1D
